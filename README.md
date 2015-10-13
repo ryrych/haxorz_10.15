@@ -188,7 +188,8 @@ asciicast was recorded with:
 asciinema play -w=2 06_hx_debugging_with_pry.json
 ```
 
-Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article on [sitepoint][8].
+Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article on
+[sitepoint][8].
 
 
 ## `formd` to level–up your markdown links formatting
