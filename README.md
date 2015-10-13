@@ -11,14 +11,14 @@ cannot, however, filter out temporary, work-in-progress, or 'private' files.
 
 `.git/info/exclude` is for that purpose.
 
-Before: not git repository.
+Before git repo is initiated.
 
 ```shell
 ➜  haxorz_10.15  ls
 asciinema_screencasts notes
 ```
 
-Git repo initiated.
+Initiating git repo.
 
 ```shell
 ➜  haxorz_10.15 git:(master) ✗ git s
