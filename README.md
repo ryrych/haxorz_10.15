@@ -228,7 +228,7 @@ au FileType markdown,text nmap <leader>ft :call Formd("-f")<CR>
 [4]: https://github.com/pry/pry/wiki/Editor-integration#using-the-edit-command
 [5]: https://asciinema.org/
 [6]: https://asciinema.org/a/27763.png
-[7]: Rubyists, It’s Time to PRY Yourself Off IRB!
+[7]: http://www.sitepoint.com/rubyists-time-pry-irb/
 [8]: http://www.sitepoint.com/
 [9]: http://drbunsen.github.io/formd/
 [10]: http://en.wikipedia.org/wiki/Fox
