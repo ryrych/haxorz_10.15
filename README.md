@@ -199,8 +199,8 @@ Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article o
 
 Markdown has two formats for links:
 
-- inline
-- referenced
+- Inline
+- Referenced
 
 Inline: good when you’re creating content. Bad for formatting (80
 column–length) and reading.
