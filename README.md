@@ -39,7 +39,7 @@ Now `asciinema_screencasts` can be pushed.
 
 ### Opening previous revision(s) of a file
 
-If you use `Vim`, consider using [Extradite commit browser](http://int3.github.io/vim-extradite/).
+If you use `Vim`, consider using [Extradite commit browser][2].
 For 'vanilla' Git, use this:
 
 ```
@@ -59,7 +59,7 @@ git checkout e051eff~1 app/assets/javascripts/file.js
 
 `hub pull-request` and you don't have to open Github page.
 
-See [git pull-request](https://github.com/github/hub#git-pull-request) documentation for more info.
+See [git pull-request][3] documentation for more info.
 
 
 ## shell / zsh
@@ -143,7 +143,7 @@ def eat
 end
 ```
 
-Pig examples taken from [pry documentation](https://github.com/pry/pry/wiki/Editor-integration#using-the-edit-command) ;)
+Pig examples taken from [pry documentation][4] ;)
 
 ### Debugging with `Pry`
 
@@ -178,9 +178,9 @@ Use `-t` to temporary changes (kept in memory)
 
 > Forget screen recording apps and blurry video. Enjoy a lightweight, purely text
 > based approach to terminal recording.
-> [visit asciinema website](https://asciinema.org/)
+> [visit asciinema website][5]
 
-[![asciicast](https://asciinema.org/a/27763.png)](https://asciinema.org/a/27763)
+[![asciicast][6]](https://asciinema.org/a/27763)
 
 asciicast was recorded with:
 
@@ -188,11 +188,12 @@ asciicast was recorded with:
 asciinema play -w=2 06_hx_debugging_with_pry.json
 ```
 
-Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!](Rubyists, It’s Time to PRY Yourself Off IRB!) article on [sitepoint](http://www.sitepoint.com/).
+Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article on [sitepoint][8].
+
 
 ## `formd` to level-up your markdown links formatting
 
-[formd—A Markdown formatting tool](http://drbunsen.github.io/formd/)
+[formd—A Markdown formatting tool][9]
 
 Markdown has two formats for links:
 
@@ -210,7 +211,7 @@ Referenced - good for reading / reviewing text and formatting-friendly.
 
 With `formd` you can easily switch between the two.
 
-[From my `.vimrc`](https://github.com/ryrych/dotfiles/blob/master/vimrc#L237-L239)
+[From my `.vimrc`][11]
 
 ```viml
 au FileType markdown,text nmap <leader>fr :call Formd("-r")<CR>
@@ -223,3 +224,16 @@ todo:
 - check formatting
 - check spelling
 - check code type (e.g `viml`) formatting
+
+
+[1]: http://selleo.com/blog/geeks-mindset/haxorz-days-in-selleo/
+[2]: http://int3.github.io/vim-extradite/
+[3]: https://github.com/github/hub#git-pull-request
+[4]: https://github.com/pry/pry/wiki/Editor-integration#using-the-edit-command
+[5]: https://asciinema.org/
+[6]: https://asciinema.org/a/27763.png
+[7]: Rubyists, It’s Time to PRY Yourself Off IRB!
+[8]: http://www.sitepoint.com/
+[9]: http://drbunsen.github.io/formd/
+[10]: http://en.wikipedia.org/wiki/Fox
+[11]: https://github.com/ryrych/dotfiles/blob/master/vimrc#L237-L239
