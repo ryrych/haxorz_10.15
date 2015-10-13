@@ -219,12 +219,6 @@ au FileType markdown,text nmap <leader>fi :call Formd("-i")<CR>
 au FileType markdown,text nmap <leader>ft :call Formd("-f")<CR>
 ```
 
-todo:
-- embed screencasts from asciinema
-- check formatting
-- check spelling
-- check code type (e.g `viml`) formatting
-
 
 [1]: http://selleo.com/blog/geeks-mindset/haxorz-days-in-selleo/
 [2]: http://int3.github.io/vim-extradite/
