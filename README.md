@@ -46,11 +46,10 @@ For 'vanilla' Git, use this:
 git show head~1:app/assets/javascripts/file.js
 ```
 
-Modify `~1` to get previous revisions
-You don't have to start from `head`. Any valid Git hash like `e051eff~5` can be
-used.
+Modify `~1` to get previous revisions.  You don't have to start from `head`. Any
+valid Git hash like `e051eff~5` can be used.
 
-You can even checkout to that file:
+You can even checkout that file:
 
 ```
 git checkout e051eff~1 app/assets/javascripts/file.js
