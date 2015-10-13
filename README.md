@@ -59,7 +59,8 @@ git checkout e051eff~1 app/assets/javascripts/file.js
 
 `hub pull-request` and you don't have to open Github page.
 
-todo: add example
+See [git pull-request](https://github.com/github/hub#git-pull-request) documentation for more info.
+
 
 ## shell / zsh
 
