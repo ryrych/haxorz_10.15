@@ -205,11 +205,15 @@ Markdown has two formats for links:
 Inline: good when you’re creating content. Bad for formatting (80
 column–length) and reading.
 
-> The quick brown [fox](http://en.wikipedia.org/wiki/Fox) jumped over
+```
+The quick brown [fox](http://en.wikipedia.org/wiki/Fox) jumped over…
+```
 
 Referenced: good for reading / reviewing text and formatting–friendly.
 
-> the lazy [dog](1)
+```
+the lazy [dog](1)
+```
 
 With `formd` you can easily switch between the two.
 
