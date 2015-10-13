@@ -1,5 +1,7 @@
 # Git, shell & vim tips & tricks
 
+Script for [Haxorz Day][1] at Selleo.
+
 ## Git
 
 ### Ignoring User Files
