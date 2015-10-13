@@ -176,10 +176,9 @@ Use `-t` to temporary changes (kept in memory)
 
 ## Better code examples with `asciinema`
 
-> Record and share your terminal sessions, the right way.
->
 > Forget screen recording apps and blurry video. Enjoy a lightweight, purely text
 > based approach to terminal recording.
+> [visit asciinema website](https://asciinema.org/)
 
 ```
 asciinema play -w=2 06_hx_debugging_with_pry.json
