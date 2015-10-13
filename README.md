@@ -86,7 +86,7 @@ ls asciinema_screencasts
 Some configuration for key bindings in **OS X** may be required.
 
 
-### `bindkey` to list keyboard shortcuts in zsh
+### bindkey to list keyboard shortcuts in zsh
 
 Use `bindkey` to list key bindings instead of googling how to ‘move forward one
 word’ (`ALT-F` if you’re wondering)
@@ -94,7 +94,7 @@ word’ (`ALT-F` if you’re wondering)
 
 ## Rails / Pry
 
-### `show-doc` as an API viewer
+### show-doc as an API viewer
 
 `?` alias can be used instead.
 
@@ -125,7 +125,7 @@ rb_ary_collect(VALUE ary)
 `show-method Dog#bark` as well.
 
 
-### `show-method` to display any method
+### show-method to display any method
 
 `$` alias can be used instead.
 
@@ -145,7 +145,7 @@ end
 
 Pig examples taken from [pry documentation][4] ;)
 
-### Debugging with `Pry`
+### Debugging with Pry
 
 ```ruby
 ➜  examples git:(master) ✗ ruby -r pry pig.rb
@@ -174,7 +174,7 @@ Use `-t` to temporary changes (kept in memory)
 ```
 
 
-## Better code examples with `asciinema`
+## Better code examples with asciinema
 
 > Forget screen recording apps and blurry video. Enjoy a lightweight, purely text
 > based approach to terminal recording.
@@ -192,7 +192,7 @@ Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article o
 [sitepoint][8].
 
 
-## `formd` to level–up your markdown links formatting
+## formd to level–up your markdown links formatting
 
 [formd—A Markdown formatting tool][9]
 
