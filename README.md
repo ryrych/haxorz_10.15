@@ -180,9 +180,15 @@ Use `-t` to temporary changes (kept in memory)
 > based approach to terminal recording.
 > [visit asciinema website](https://asciinema.org/)
 
+[![asciicast](https://asciinema.org/a/27763.png)](https://asciinema.org/a/27763)
+
+asciicast was recorded with:
+
 ```
 asciinema play -w=2 06_hx_debugging_with_pry.json
 ```
+
+Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!](Rubyists, It’s Time to PRY Yourself Off IRB!) article on [sitepoint](http://www.sitepoint.com/).
 
 ## `formd` to level-up your markdown links formatting
 
