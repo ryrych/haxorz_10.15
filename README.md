@@ -178,7 +178,8 @@ Use `-t` to temporary changes (kept in memory)
 
 > Forget screen recording apps and blurry video. Enjoy a lightweight, purely text
 > based approach to terminal recording.
-> [visit asciinema website][5]
+
+[Visit asciinema website][5] for more info.
 
 [![asciicast][6]](https://asciinema.org/a/27763)
 
