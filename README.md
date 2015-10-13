@@ -94,7 +94,7 @@ word' (`ALT-F` if you're wondering)
 
 ## Rails / Pry
 
-### `show-doc` instead of `http://api.rubyonrails.org/` (and more)
+### `show-doc` instead of visiting `http://api.rubyonrails.org/` (and more)
 
 `?` alias can be used instead.
 
