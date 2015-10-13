@@ -143,7 +143,7 @@ def eat
 end
 ```
 
-todo: find article it was taken from
+Pig examples taken from [pry documentation](https://github.com/pry/pry/wiki/Editor-integration#using-the-edit-command) ;)
 
 ### Debugging with `Pry`
 
