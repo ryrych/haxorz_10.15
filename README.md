@@ -13,14 +13,14 @@ cannot, however, filter out temporary, work-in-progress, or 'private' files.
 
 Before git repo is initiated.
 
-```shell
+```bash
 ➜  haxorz_10.15  ls
 asciinema_screencasts notes
 ```
 
 Initiating git repo.
 
-```shell
+```bash
 ➜  haxorz_10.15 git:(master) ✗ git s
 ?? asciinema_screencasts/
 ?? notes/
@@ -28,7 +28,7 @@ Initiating git repo.
 
 I don't want to push `notes/` and other 'WIP' files.
 
-```shell
+```bash
 ➜  haxorz_10.15 git:(master) ✗ echo 'notes/' >> .git/info/exclude
 ➜  haxorz_10.15 git:(master) ✗ git s
 ?? asciinema_screencasts/
@@ -42,7 +42,7 @@ Now `asciinema_screencasts` can be pushed.
 If you use `Vim`, consider using [Extradite commit browser][2].
 For 'vanilla' Git, use this:
 
-```
+```bash
 git show head~1:app/assets/javascripts/file.js
 ```
 
@@ -51,7 +51,7 @@ valid Git hash like `e051eff~5` can be used.
 
 You can even checkout that file:
 
-```
+```bash
 git checkout e051eff~1 app/assets/javascripts/file.js
 ```
 
@@ -71,14 +71,14 @@ command.
 
 `asciinema_screencasts` can be used in another command.
 
-```shell
+```bash
 ➜  haxorz_10.15 git:(master) ✗ ls asciinema_screencasts
 01_hx_git_exclude.json
 02_hx_git_file_previous_rev_ctrlspace.json
 …
 ```
 
-```
+```bash
 # press `ALT-.` after `ls`
 ls asciinema_screencasts
 ```
@@ -98,7 +98,7 @@ word' (`ALT-F` if you're wondering)
 
 `?` alias can be used instead.
 
-```
+```ruby
 [1] pry(main)> show-method Array#map
 
 From: array.c (C Method):
@@ -129,7 +129,7 @@ rb_ary_collect(VALUE ary)
 
 `$` alias can be used instead.
 
-```
+```ruby
 ➜  examples git:(master) ✗ ruby -r pry pig.rb
 [1] pry(main)> $ Pig#eat
 
@@ -147,7 +147,7 @@ Pig examples taken from [pry documentation][4] ;)
 
 ### Debugging with `Pry`
 
-```
+```ruby
 ➜  examples git:(master) ✗ ruby -r pry pig.rb
 [1] pry(main)> $ Pig#say_hello
 
@@ -159,7 +159,7 @@ end
 
 ‘dog-like’ pig? Let’s fix that!
 
-```
+```ruby
 [2] pry(main)> edit Pig#say_hello
 
 def say_hello
@@ -169,7 +169,7 @@ end
 
 Use `-t` to temporary changes (kept in memory)
 
-```
+```ruby
  edit -t Pig#say_hello
 ```
 
@@ -184,7 +184,7 @@ Use `-t` to temporary changes (kept in memory)
 
 asciicast was recorded with:
 
-```
+```bash
 asciinema play -w=2 06_hx_debugging_with_pry.json
 ```
 
@@ -213,7 +213,7 @@ With `formd` you can easily switch between the two.
 
 [From my `.vimrc`][11]
 
-```viml
+```VimL
 au FileType markdown,text nmap <leader>fr :call Formd("-r")<CR>
 au FileType markdown,text nmap <leader>fi :call Formd("-i")<CR>
 au FileType markdown,text nmap <leader>ft :call Formd("-f")<CR>
