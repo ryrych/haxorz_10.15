@@ -1,4 +1,4 @@
-# Git, shell & vim tips & tricks
+# Git, shell & Vim tips & tricks
 
 Script for [Haxorz Day][1] at Selleo.
 
@@ -7,7 +7,7 @@ Script for [Haxorz Day][1] at Selleo.
 ### Ignoring User Files
 
 `.gitignore` is good for ignoring files shared among (almost) all developers. It
-cannot, however, filter out temporary, work-in-progress, or 'private' files.
+cannot, however, filter out temporary, work–in–progress, or ‘private’ files.
 
 `.git/info/exclude` is for that purpose.
 
@@ -26,7 +26,7 @@ Initiating git repo.
 ?? notes/
 ```
 
-I don't want to push `notes/` and other 'WIP' files.
+I don’t want to push `notes/` and other ‘WIP’ files.
 
 ```bash
 ➜  haxorz_10.15 git:(master) ✗ echo 'notes/' >> .git/info/exclude
@@ -40,13 +40,13 @@ Now `asciinema_screencasts` can be pushed.
 ### Opening previous revision(s) of a file
 
 If you use `Vim`, consider using [Extradite commit browser][2].
-For 'vanilla' Git, use this:
+For ‘vanilla’ Git, use this:
 
 ```bash
 git show head~1:app/assets/javascripts/file.js
 ```
 
-Modify `~1` to get previous revisions.  You don't have to start from `head`. Any
+Modify `~1` to get previous revisions.  You don’t have to start from `head`. Any
 valid Git hash like `e051eff~5` can be used.
 
 You can even checkout that file:
@@ -57,7 +57,7 @@ git checkout e051eff~1 app/assets/javascripts/file.js
 
 ### Opening Github pull request with hub
 
-`hub pull-request` and you don't have to open Github page.
+`hub pull-request` and you don’t have to open Github page.
 
 See [git pull-request][3] documentation for more info.
 
@@ -66,7 +66,7 @@ See [git pull-request][3] documentation for more info.
 
 ### Repeating last arguments in shell
 
-You don't have to do 'copy-pasta' to use last command arguments in another
+You don’t have to do ‘copy–pasta’ to use last command arguments in another
 command.
 
 `asciinema_screencasts` can be used in another command.
@@ -83,18 +83,18 @@ command.
 ls asciinema_screencasts
 ```
 
-Some configuration for key bindings in OS X may be required.
+Some configuration for key bindings in **OS X** may be required.
 
 
 ### `bindkey` to list keyboard shortcuts in zsh
 
-Use `bindkey` to list key bindings instead of googling how to 'move forward one
-word' (`ALT-F` if you're wondering)
+Use `bindkey` to list key bindings instead of googling how to ‘move forward one
+word’ (`ALT-F` if you’re wondering)
 
 
 ## Rails / Pry
 
-### `show-doc` instead of visiting `http://api.rubyonrails.org/` (and more)
+### `show-doc` as an API viewer
 
 `?` alias can be used instead.
 
@@ -157,7 +157,7 @@ def say_hello
 end
 ```
 
-‘dog-like’ pig? Let’s fix that!
+‘dog–like’ pig? Let’s fix that!
 
 ```ruby
 [2] pry(main)> edit Pig#say_hello
@@ -191,7 +191,7 @@ asciinema play -w=2 06_hx_debugging_with_pry.json
 Example taken from [Rubyists, It’s Time to PRY Yourself Off IRB!][7] article on [sitepoint][8].
 
 
-## `formd` to level-up your markdown links formatting
+## `formd` to level–up your markdown links formatting
 
 [formd—A Markdown formatting tool][9]
 
@@ -200,12 +200,12 @@ Markdown has two formats for links:
 - inline
 - referenced
 
-Inline - good when you're creating content. Bad for formatting (80
-column-length) and reading.
+Inline: good when you’re creating content. Bad for formatting (80
+column–length) and reading.
 
 > The quick brown [fox](http://en.wikipedia.org/wiki/Fox) jumped over
 
-Referenced - good for reading / reviewing text and formatting-friendly.
+Referenced: good for reading / reviewing text and formatting–friendly.
 
 > the lazy [dog](1)
 
