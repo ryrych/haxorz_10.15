@@ -83,7 +83,9 @@ command.
 ls asciinema_screencasts
 ```
 
-Some configuration for key bindings in **OS X** may be required.
+On **OS X** you may need ALT key to be configured to act as +Esc in options of your terminal emulator.
+
+![](example_alt.png)
 
 
 ### bindkey to list keyboard shortcuts in zsh
